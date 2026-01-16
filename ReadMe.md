@@ -123,28 +123,27 @@ Follow the steps below to run the project locally:
 
 ### 1️⃣ Clone the Repository
 
-```bash
+```cmd
 git clone https://github.com/your-username/sms-spam-classifier.git
 cd sms-spam-classifier
 ```
 
 ### 2️⃣ Create a Virtual Environment (Optional but Recommended)
 
-```bash
-python -m venv venv
-venv\Scripts\activate      # Windows
-source venv/bin/activate   # macOS/Linux
+```cmd
+conda create --name myenv python=3.10
+conda activate myenv
 ```
 
 ### 3️⃣ Install Dependencies
 
-```bash
+```cmd
 pip install -r requirements.txt
 ```
 
 ### 4️⃣ Run the Application
 
-```bash
+```cmd
 streamlit run app.py
 ```
 
